@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    /* Increase left spacing for the brand */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+    /* Increase the space between items */
+    color: black;
+}
+
+.nav-link {
+    font-size: 18px;
+    /* Increase font size */
+    font-weight: 600;
+    /* Adjust font weight */
+    color: black;
+    /* Set font color to black */
+}
+
+
+.custom-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.custom-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.card-text {
+    margin-bottom: 0.25rem;
+    /* Adjust the value as needed */
+}
+
+.box {
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: rgb(250, 250, 250);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* Add a subtle shadow */
+    margin-bottom: 1rem;
+    /* Ensure space between multiple boxes if needed */
+    text-align: left;
+    /* Align text to left for consistency */
+}
+
+.component-box {
+    border: 1px solid rgb(163, 163, 163);
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    /* Lighter shadow for component boxes */
+    text-align: left;
+    /* Align text to left for better readability */
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Enable smooth scrolling */
+}
+
+.nav-link {
+    transition: color 0.3s;
+    /* Smooth transition for color change */
+}
+
+.nav-link.active {
+    color: #007bff;
+    /* Change color for active link */
+    font-weight: bold;
+    /* Optional: make the font bold */
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .img-responsive {
+        width: 50px;
+        /* Reduce image size */
+        height: 30px;
+        /* Reduce image size */
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        order: -1;
+    }
+
+    .hero img{
+        width: 100%;
+        /* Make sure the image takes the full width */
+        height: 250px;
+        /* Maintain aspect ratio */
+    }
+
+    .navbar-brand {
+        margin-left: 2px;
+        padding-left: 0.5rem;
+        /* Increase left spacing for the brand */
+    }
+
+    .col-md-6 {
+        padding-top: 50px;
+        /* Increase top padding */
+    }
+}
