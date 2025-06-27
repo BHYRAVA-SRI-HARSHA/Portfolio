@@ -4,6 +4,6 @@ This is a personal portfolio website built using HTML, CSS, JavaScript, and Boot
 
 - **Technologies Used**: HTML, CSS, JavaScript, Bootstrap (v5).
 - The website is fully responsive and mobile-friendly.
-- Deployed at: [https://github.com/BHYRAVA-SRI-HARSHA/Portfolio]
+- Deployed at: [[https://github.com/BHYRAVA-SRI-HARSHA/Portfolio](https://portfolio-rvrn.vercel.app/)]
 
 Feel free to explore!
